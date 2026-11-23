@@ -1,0 +1,8 @@
+{
+  "id": 12,
+  "timestamp": 17323380012,
+  "workerHits": 100,
+  "dbQueries": 1,
+  "reductionPercent": 99.0,
+  "strategy": "xfetch-probabilistic"
+}
