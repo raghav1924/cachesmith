@@ -1,0 +1,4 @@
+workers,strategy,db_queries,p95_ms
+60,naive,60,65.2
+60,mutex,1,54.1
+60,xfetch,1,1.2
