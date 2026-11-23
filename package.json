@@ -1,0 +1,53 @@
+{
+  "name": "cachesmith",
+  "version": "1.0.0",
+  "description": "Developer-First HTTP & Distributed Cache Linter, Cache Stampede Simulator, Probabilistic Early Expiration (XFetch) Calculator & Bento Grid Studio. Author: Jatin Sharma (https://jatinsh.netlify.app/)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "cachesmith": "dist/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node /Users/jatinsharma/.local/bin/lib/node_modules/typescript/bin/tsc",
+    "prepublishOnly": "npm run build",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "start": "node dist/cli.js",
+    "studio": "node dist/cli.js studio",
+    "audit": "node dist/cli.js audit",
+    "stampede": "node dist/cli.js stampede",
+    "normalize": "node dist/cli.js normalize",
+    "proxy": "node dist/cli.js proxy",
+    "generate": "node dist/cli.js generate"
+  },
+  "keywords": [
+    "cache",
+    "caching",
+    "cache-control",
+    "cache-stampede",
+    "thundering-herd",
+    "xfetch",
+    "probabilistic-early-expiration",
+    "stale-while-revalidate",
+    "rfc9111",
+    "cdn",
+    "redis",
+    "bento-grid",
+    "web-studio",
+    "zero-dependencies",
+    "jatin-sharma"
+  ],
+  "author": "Jatin Sharma <raghavjatin245@gmail.com> (https://jatinsh.netlify.app/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raghav1924/cachesmith.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raghav1924/cachesmith/issues"
+  },
+  "homepage": "https://github.com/raghav1924/cachesmith#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
