@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=540, s-maxage=2700, stale-while-revalidate=32400
+ETag: \"sample-hash-09\"
+Vary: Accept-Encoding
+Content-Type: application/json
+
+{"status": "ok", "sample": 9}
